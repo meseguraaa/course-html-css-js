@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+@font-face {
+    font-family: "BR-Medium";
+    src: url(../fonts/Brink\ -\ BR\ Sonoma\ Medium.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "BR-Semi";
+    src: url(../fonts/Brink\ -\ BR\ Sonoma\ SemiBold.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "BR-Bold";
+    src: url(../fonts/Brink\ -\ BR\ Sonoma\ Bold.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "BR-Bold-Italic";
+    src: url(../fonts/Brink\ -\ BR\ Sonoma\ Bold\ Italic.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "BR-Black";
+    src: url(../fonts/Brink\ -\ BR\ Sonoma\ Black.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+  
+.content-1000 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content-950 {
+    max-width: 950px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.content-500 {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.texto-titulo-branco{ 
+    font-family: "BR-Semi";
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.texto-titulo-verde{ 
+    font-family: "BR-Black";
+    font-size: 80px;
+    color: #11C76F;
+}
+
+.texto-branco{ 
+    font-family: "BR-Semi";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.texto-verde{ 
+    font-family: "BR-Medium";
+    font-size: 20px;
+    color: #223324;
+}
+
+.caixa-titulo-verde {
+    background: #11C76F 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: "BR-Black";
+    font-size: 40px;
+}
+
+.titulo-verde {
+    color: #11C76F;
+    font-family: "BR-Black";
+    font-size: 40px;
+}
+
+.card-titulo-verde {
+    color: #11C76F;
+    font-family: "BR-Black";
+    font-size: 20px;
+}
+
+
+.p-top20{
+    padding-top: 20px;
+}
+
+.p-top50{
+    padding-top: 50px;
+}
+
+.p-top100{
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao {
+    background: #375BBF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 6px #00000029;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "BR-Black";
+    font-size: 40px;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.botao:hover {
+    background: #28438f 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 6px #00000029;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "BR-Black";
+    font-size: 40px;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.botao-menor {
+    background: #375BBF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 6px #00000029;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "BR-Black";
+    font-size: 30px;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.botao-menor:hover {
+    background: #28438f 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 6px #00000029;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "BR-Black";
+    font-size: 30px;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.section-1{
+    background: url(../img/bkg1.jpg) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.rodapecapa{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 50px;
+    align-content: center;
+}
+
+.section-2{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.section-3{
+    background-color: #F5F5F0;
+    padding-bottom: 50px;
+}
+
+.section-4{
+    background: url(../img/bkg2.jpg) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    height: 250px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    transform: none;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flipping-card {
+    transform: rotateY(180deg);
+}
+
+.unflipping-card {
+    transform: rotateY(360deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-size: 100% 100%;
+    background-color: #375BBF;
+    font-family: "BR-Black";
+    font-size: 20px;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* * Style the back side */
+.flip-card-back {
+    color: #fff;
+    background-color: #fff;
+    border: 5px solid #375BBF;
+    font-family: "BR-Medium";
+    font-size: 16px;
+    line-height: 20px;
+    color: #223324;
+    transform: rotateY(180deg);
+    padding: 0rem 2rem;
+}
+
+.section-5{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.section-6{
+    background: url(../img/video.png) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    height: 100vh;
+}
+
+video {
+    border: 5px solid #11C76F;
+  }
+
+.section-7{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.section-8{
+    background-color: #F5F5F0;
+    padding-bottom: 50px;
+}
+
+.section-9{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.section-10{
+    background: url(../img/bkg3.jpg) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.section-11{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.quadrado-verde {
+    background-color: #fff;
+    border: 5px solid #11C76F;
+    font-family: "BR-Medium";
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section-12{
+    background: url(../img/bkg4.jpg) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+section {
+    display:none;
+}
+    
+.section-visible {
+    display:block;
+}

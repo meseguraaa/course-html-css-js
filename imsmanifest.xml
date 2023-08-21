@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-BDAA02780A1A8AF7C3828F1733DB4EC0" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location />
+  </metadata>
+  <organizations default="ORG-3D8D32ABCD68241C42CBC104A94F5F96">
+    <organization identifier="ORG-3D8D32ABCD68241C42CBC104A94F5F96" structure="hierarchical">
+      <title>Gestão de Incidentes</title>
+      <item identifier="ITEM-59D5C0F11336CC225789FED89092B3AA" identifierref="RES-3BAEBC8C36BA0299511379F440192E2F" isvisible="true">
+        <title>Gestão de Incidentes</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-3BAEBC8C36BA0299511379F440192E2F" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <file href="index.html" />
+      <file href="assets/styles/bootstrap.min.css" />
+      <file href="assets/styles/reset.css" />
+    </resource>
+  </resources>
+</manifest>
